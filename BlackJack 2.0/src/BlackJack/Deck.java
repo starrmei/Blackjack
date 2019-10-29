@@ -1,34 +1,3 @@
-/*
- * Meigan Starr
- * 3/4/17
- * Project 1 - Deck Class
- * 
- * Requirements
- * Design a Deck class using previously created Card Class
- * 
- * Design
- * private Deck[52] = new Card
- * numLeft = 52
- * 
- * Deck()
- * 	Card = 0
- * 
- * Deal(numDeal)
- * 	deck[] = card.setRandom
- * 	while card.rank == card.rank && card.suit == card.suit
- * 		deck[i] = card.setRandom
- * 	numLeft--
- * 	
- * cardsLeft()
- * 	return numLeft
- * 
- * shuffle()
- * 	numLeft = 52
- * 
- * toString
- * 	return card.toString + numLeft
- */
-
 package BlackJack;
 
 public class Deck {

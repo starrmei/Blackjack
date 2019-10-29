@@ -1,35 +1,3 @@
-/*
- * Meigan Starr
- * 3/7/16
- * Project 1 - BlackjackHand Class
- * 
- * Requirements
- * Design a class to play Blackjack following the UML
- * 
- * Design
- * Card[] hand = new Deck[11]
- * int numCards
- * 
- * BlackjackHand()
- * 	Card[0] = Card()
- * 	numCards = 0
- * 
- * getScore
- * 	score = hand[i].getRank
- * 	return score
- * 
- * addCard(Card c)
- * 	hand.deal
- * 
- * resetHand
- * 	numcards = 0
- * 	Card[] hand = new Deck[11]
- * 
- * toString
- * 	return "Cards in hand: " + numCards + hand.toString 
- * 
- */
-
 package BlackJack;
 
 public class BlackJackHand {
